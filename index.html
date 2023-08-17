@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Additya's Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container" id="nav">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <h2> Additya G </h2>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item" ><a href="#about" class="nav-link active" aria-current="page" onclick="navclickfunc(this)">About Me</a></li>
+        <li class="nav-item"><a href="#hanging-icons" class="nav-link" onclick="navclickfunc(this)">Projects</a></li>
+        <li class="nav-item"><a href="#icon-grid" class="nav-link" onclick="navclickfunc(this)">Skills</a></li>
+        <li class="nav-item"><a href="#Contact" class="nav-link" onclick="navclickfunc(this)">Contact</a></li>
+      </ul>
+    </header>
+  </div>
+
+  <div class="container col-xxl-8 px-4 py-5" id="about">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./additya.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About Me</h1>
+        <p class="lead"> Hi I'm Additya, a final year student at NIT Trichy pursuing my B.Tech in Instrumentation and Control.
+          Hi I'm Additya, a final year student at NIT Trichy pursuing my B.Tech in Instrumentation and Control.
+          Hi I'm Additya, a final year student at NIT Trichy pursuing my B.Tech in Instrumentation and Control.
+          Hi I'm Additya, a final year student at NIT Trichy pursuing my B.Tech in Instrumentation and Control.
+          Hi I'm Additya, a final year student at NIT Trichy pursuing my B.Tech in Instrumentation and Control.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Projects</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img class="bi" width="1em" height="1em" src="./codelogo.png">
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Band Website</h3>
+          <p>A frontend website made for a band with a home, about and a store page. The home and about pages were created using HTML and CSS. The store page was built with HTML, CSS and JavaScript. The store page provides an interactive interface to shop for band merchandise and albums.</p>
+          <a href="https://github.com/AddityaG/Band-website" class="btn btn-primary" target="_blank">
+            Check it out
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img class="bi" width="1em" height="1em" src="./codelogo.png">
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">U.S Medical Insurance Data-Analysis:</h3>
+          <p>A portfolio starter project that was built in Jupyter notebook document. Developed functions to perform different calculations to showcase result of different ideas for analyzation of the US Medical Insurance Cost dataset in the form of a CSV document.</p>
+          <a href="https://github.com/AddityaG/US_Medical_insurance_portfolio_project" target="_blank" class="btn btn-primary">
+            Check it out
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img class="bi" width="1em" height="1em" src="./codelogo.png">
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Personal Portfolio Website</h3>
+          <p>A frontend personal portfolio website HTML and CSS and JS. Bootstrap components were used in the website.</p>
+          <a href="#" class="btn btn-primary">
+            Check it out
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom">Skills</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <img src="./html logo.png" height="30">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="./css logo.png" height="30">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CSS</h3>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="./JavaScript-logo.png" height="30">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">JavaScript</h3>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="./dblogo.png" height="30">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">SQL</h3>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="./git.png" height="30">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Git</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="Contact">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">Contact</span>
+      </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="https://github.com/AddityaG" target="_blank"><img src="./Github.png" height="24"></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/addityag/" target="_blank"><img src="./Linkedin.png" height="24"></a></li>
+      </ul>
+    </footer>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
